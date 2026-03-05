@@ -18,13 +18,14 @@ load_dotenv()
 EMAIL = os.getenv("EMAIL")
 PASSWORD = os.getenv("PASSWORD")
 PERFIL_BUSCADO = os.getenv("PERFIL_BUSCADO")
+SITE = os.getenv("SITE")
 
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=False)
     page = browser.new_page()
 
     # Entra no Perfil do Instagram
-    page.goto("https://instagram.com/")
+    page.goto(SITE)
     logging.info("Iniciando navegação para Instagram")
     time.sleep(10)
 

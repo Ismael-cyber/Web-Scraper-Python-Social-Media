@@ -12,16 +12,16 @@ A plataforma em si, criou estratégicamente, mecanismos contra web scrapers, dif
 
 Nossa ferramenta utiliza a linguagem **Python** juntamente com as bibliotecas:
 
--Playwright
--Logging
--Dotenv
--Os
--Time
+- Playwright
+- Logging
+- Dotenv
+- Os
+- Time
 
 ## Como usufruir da nossa ferramenta
 
-> Clone nosso repositório e baixe as depêndencias do projeto
+> git clone https://github.com/Ismael-cyber/Web-Scraper-Python-Social-Media
 
 ## Contribuição
 
-Estamos com vagas abertas e **ilimitadas**. Você que se interessou pelo assunto e pelo projeto por favor, manda dm que coloco a rapaziada para contribuir.
+Estamos com vagas abertas e **ilimitadas**. Você que se interessou pelo assunto e pelo projeto, por favor, manda dm que coloco a rapaziada para contribuir.
